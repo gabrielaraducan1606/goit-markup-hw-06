@@ -951,6 +951,8 @@ body {
 .modal-form__comments:hover,
 .modal-form__comments:focus {
   border-color: var(--blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-subscribe {
@@ -1023,8 +1025,8 @@ body {
 .form-subscribe svg {
   width: 24px;
   height: 24px;
-  top: 200px;
-  left: 50px;
+  top: 51px;
+  left: 540px;
   position: absolute;
-  fill: var(--blue);
+  fill: var(--white);
 }
