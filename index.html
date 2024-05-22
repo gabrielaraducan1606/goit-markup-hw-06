@@ -316,11 +316,26 @@
         <li><a href=""><svg class="contact-svg"><use href="./images/icons.svg#icon-facebook-1" /></svg></a></li>
         <li><a href=""><svg class="contact-svg"><use href="./images/icons.svg#icon-linkedin" /></svg></a></li>
      </ul></div>
+    
+      <form class="form-subscribe">
+        <label class="modal-subscribe">SUBSCRIBE TO THE NEWSLETTER<input type="text" name="useremail" class="input-subscribe" placeholder="E-mail" /></label>
+      <button type="submit" class="subscribe-button">Subscribe<span><svg class="subscribe-svg"><use href="./images/icons.svg#icon-icon-send" /></svg></span></button>
+    
+      </form>
     </footer>
     <div data-modal class="is-hidden"> 
       <div data-modal-content="">
 <button data-modal-close type="button" class="close__button">X</button>
-      </div>
+<h2 class="modal-title">Leave your information and we'll call you back</h2>      
+<form name="modal-form" class="modal-form">
+<label class="modal-form__position">Name<input type="text" name="username" class="modal-form__input"/><svg width="12" height="12px"><use href="./images/icons.svg#icon-person"></use></svg></label>   
+<label class="modal-form__position">Telefon <input type="tel" name="userphone" class="modal-form__input" /><svg width="12" height="12px"><use href="./images/icons.svg#icon-email"></use></svg></label>
+<label class="modal-form__position">Email<input type="email" name="useremail" class="modal-form__input"/><svg width="12" height="12px"><use href="./images/icons.svg#icon-phone"></use></svg></label>
+<label class="modal-form__position">Mesaj <textarea name="mesaj" placeholder="Enter the text" class="modal-form__comments" rows="5"></textarea></label>
+<label class="modal-checkbox__position modal-form__checked"><input type="checkbox" name="agree" vlaue="agree" class="modal-form__input" /><span class="replace-checkbox modal-form-checkbox__position"><svg width="12" height="12px"><use href="./images/icons.svg#icon-Vector-1"></use></svg></span>I agree with the letter and accept the <a href="#" class="condition">Terms and Conditions</a></label>
+<button type="submit" class="modal-form__button">Send</button>
+</form>
+</div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
