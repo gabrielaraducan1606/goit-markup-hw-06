@@ -966,6 +966,17 @@ body {
   display: block;
 }
 
+.form-subscribe1 {
+  width: 600px;
+  height: 86px;
+  border-radius: 4px;
+  border: 1px solid var(--black);
+  top: 1645px;
+  left: 900px;
+  position: absolute;
+  display: block;
+}
+
 .modal-subscribe {
   width: 229px;
   height: 16px;
@@ -1023,6 +1034,15 @@ body {
 }
 
 .form-subscribe svg {
+  width: 24px;
+  height: 24px;
+  top: 51px;
+  left: 540px;
+  position: absolute;
+  fill: var(--white);
+}
+
+.form-subscribe1 svg {
   width: 24px;
   height: 24px;
   top: 51px;
